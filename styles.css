@@ -269,20 +269,12 @@ body {
     }
     
     #results {
-        height: 50px;
-        transition: height 2s ease;
+        height: 60px;
+        color: var(--Light-lavender);
     }
-
-    #results:hover {
-        height: 460px;
-    }
-    #results:hover + #summary {
-        height: 0px;
-        display: none;
-    }
-    #summary {
-        transition: height 2s ease;
-        transition: display 0,1s ease;
+    
+    #title {
+        color: var(--Light-lavender);
     }
 
     .attribution {
