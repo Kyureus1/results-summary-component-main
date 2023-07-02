@@ -260,3 +260,25 @@ body {
 #results p:nth-child(4) {
     text-align: center;
 }
+
+/*responsive!!*/
+@media (max-width: 740px) {
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #results {
+        height: 50px;
+    }
+
+    #results:hover {
+        width: 312px;
+        height: 426px;
+        position: absolute;
+    }
+
+    .attribution {
+        display: none;
+    }
+}
