@@ -269,6 +269,7 @@ body {
     }
     
     #results {
+        transition: all 350ms ease-in-out;
         height: 60px;
         color: var(--Light-lavender);
     }
